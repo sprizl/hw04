@@ -15,9 +15,9 @@ export class HomePage {
   postRequest(){
 
     let item = {
-      id :58364180
+      id :58364494
     }
-    console.log('Send : 58364180');
+    console.log('Send : 58364494');
     this.http.post("http://localhost:50000/api", item)
     .subscribe((val) =>{
       console.log(' Receive : ' + val['item']);
